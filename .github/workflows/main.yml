@@ -9,4 +9,5 @@ jobs:
     - name: Push to GitHub
       run: |
         ls -al
-        python testing.py
+        cd Packages
+        python3 -m pytest testing.py
