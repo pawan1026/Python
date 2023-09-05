@@ -8,6 +8,5 @@ jobs:
       uses: actions/checkout@v2
     - name: Push to GitHub
       run: |
-        git remote add origin https://github.com/pawan1026/Python.git
         git push -u origin master
         python testing.py
